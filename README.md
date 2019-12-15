@@ -2,7 +2,7 @@
 
 # [RU] JMusicBot форк Jahrosh Music Bot
 
-[![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
+[![Download](http://fns.wtf/photohost/img/2019-12/15/ti96tqb4k1pfvrwp9tgduaw1u.png)](https://musicmonsterb.herokuapp.com/musicbot.jar)
 [![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/stargazers)
 [![Release](https://img.shields.io/github/release/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
 [![License](https://img.shields.io/github/license/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/blob/master/LICENSE)
