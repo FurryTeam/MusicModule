@@ -134,34 +134,34 @@ lyrics.default = "A-Z Lyrics"
 aliases {
 
   // General commands
-  settings = [ status ]
+  settings = [ status, статус, настройки ]
 
   // Music commands
-  lyrics = []
+  lyrics = [ лирика ]
   nowplaying = [ np, current ]
   play = [ плей ]
-  playlists = [ pls ]
-  queue = [ list ]
-  remove = [ delete ]
-  scsearch = []
-  search = [ ytsearch ]
-  shuffle = []
-  skip = [ voteskip ]
+  playlists = [ pls, плейлисты ]
+  queue = [ очередь, list ]
+  remove = [ удалить ]
+  scsearch = [ саундклауд]
+  search = [ ytsearch, поиск ]
+  shuffle = [ перемешать ]
+  skip = [ voteskip, пропуск ]
 
   // Admin commands
   prefix = [ setprefix ]
-  setdj = []
-  settc = []
-  setvc = []
+  setdj = [ диджей ]
+  settc = [ текстчат ]
+  setvc = [ гсчат]
 
   // DJ Commands
-  forceremove = [ forcedelete, modremove, moddelete ]
-  forceskip = [ modskip ]
-  movetrack = [ move ]
+  forceremove = [ forcedelete, modremove, moddelete. форсудалить ]
+  forceskip = [ modskip, форсскип ]
+  movetrack = [ move, подвинуть ]
   pause = [ пауза ]
   playnext = [ следующий ]
   repeat = [ повтор ]
-  skipto = [ jumpto ]
+  skipto = [ jumpto, пропуститьдо ]
   stop = [ стоп ]
   volume = [ громкость ]
 }
