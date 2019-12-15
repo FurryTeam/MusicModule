@@ -1,1 +1,2 @@
-mv /app/tmp/cache/.m2/repository/com/jagrosh/JMusicBot/0.2.6/JMusicBot-0.2.6-All.jar /app/musicbot.jar
+echo [INFO] Moving ready file...
+mv /app/target/JMusicBot-0.2.6-All.jar /app/musicbot.jar
