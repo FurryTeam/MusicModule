@@ -194,7 +194,7 @@ public class AudioHandler extends AudioEventAdapter implements AudioSendHandler
             Guild guild = guild(jda);
             AudioTrack track = audioPlayer.getPlayingTrack();
             MessageBuilder mb = new MessageBuilder();
-            mb.append(FormatUtil.filter(manager.getBot().getConfig().getSuccess()+" **Now Playing in "+guild.getSelfMember().getVoiceState().getChannel().getName()+"...**"));
+            mb.append(FormatUtil.filter(manager.getBot().getConfig().getSuccess()+" **Сейчас играет в "+guild.getSelfMember().getVoiceState().getChannel().getName()+"...**"));
             EmbedBuilder eb = new EmbedBuilder();
             eb.setColor(guild.getSelfMember().getColor());
             if(getRequester() != 0)
@@ -238,9 +238,9 @@ public class AudioHandler extends AudioEventAdapter implements AudioSendHandler
     {
         Guild guild = guild(jda);
         return new MessageBuilder()
-                .setContent(FormatUtil.filter(manager.getBot().getConfig().getSuccess()+" **Now Playing...**"))
+                .setContent(FormatUtil.filter(manager.getBot().getConfig().getSuccess()+" **Сейчас играет...**"))
                 .setEmbed(new EmbedBuilder()
-                .setTitle("No music playing")
+                .setTitle("Ничего не играет")
                 .setDescription(JMusicBot.STOP_EMOJI+" "+FormatUtil.progressBar(-1)+" "+FormatUtil.volumeIcon(audioPlayer.getVolume()))
                 .setColor(guild.getSelfMember().getColor())
                 .build()).build();
@@ -260,7 +260,7 @@ public class AudioHandler extends AudioEventAdapter implements AudioSendHandler
                     + "[" + FormatUtil.formatTime(track.getDuration()) + "] "
                     + FormatUtil.volumeIcon(audioPlayer.getVolume());
         }
-        else return "No music playing " + JMusicBot.STOP_EMOJI + " " + FormatUtil.volumeIcon(audioPlayer.getVolume());
+        else return "Сейчас музыка не играет " + JMusicBot.STOP_EMOJI + " " + FormatUtil.volumeIcon(audioPlayer.getVolume());
     }
     
     // Audio Send Handler methods
