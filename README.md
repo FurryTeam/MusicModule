@@ -2,8 +2,7 @@
 
 # [RU] JMusicBot форк Jahrosh Music Bot
 
-[![Download](https://github.com/Rxflex/MusicMonsterb/raw/master/download.png)](https://musicmonsterb.herokuapp.com/musicbot.jar)
-[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/stargazers)
+[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/Rxflex/MusicMonsterb/stargazers)
 [![Release](https://img.shields.io/github/release/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
 [![License](https://img.shields.io/github/license/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/blob/master/LICENSE)
 [![Discord](https://discordapp.com/api/guilds/147698382092238848/widget.png)](https://discord.gg/0p9LSGoRLu6Pet0k)<br>
@@ -33,6 +32,7 @@
 
 ## Установка
 Пожалуйста, смотрите [файлы установки](https://github.com/Rxflex/MusicBot/releases/tag/0.2.7), чтобы запустить этот бот самостоятельно!
+[![Download](https://github.com/Rxflex/MusicMonsterb/raw/master/download.png)](https://musicmonsterb.herokuapp.com/musicbot.jar)
 
 ## Вопросы / Предложения / Сообщения об ошибках
 **Пожалуйста, прочтите [Список рекомендуемых / запланированных функций](https://github.com/jagrosh/MusicBot/projects/1), прежде чем предлагать какую-либо функцию**. Если вы хотите предложить изменения в том, как функционирует бот, порекомендовать больше параметров настройки или сообщить об ошибках, не стесняйтесь открыть [Issue](https://github.com/jagrosh/MusicBot/issues) в этом репозитории. или присоединитесь к [моему серверу Discord](https://discord.gg/0p9LSGoRLu6Pet0k). (Примечание. Я не буду принимать запросы на функции, для которых потребуются дополнительные ключи API, а также любые функции, не связанные с музыкой). Если вам нравится этот бот, обязательно добавьте звездочку в библиотеки, которые делают это возможным: [** JDA **](https://github.com/DV8FromTheWorld/JDA) и [**lavaplayer**](https://github.com/sedmelluq/lavaplayer)
