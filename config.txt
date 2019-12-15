@@ -13,7 +13,7 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = process.env.BOTTOKEN
+token = NjQ5MjcyMTA0OTA2MzkxNTky.XfXVVw.eQ__XG6d-NJrY2sW35Z_WoaQJhc
 
 
 // This sets the owner of the bot
@@ -139,21 +139,21 @@ aliases {
   // Music commands
   help = [ хелп, помощь]
   lyrics = [ лирика ]
-  nowplaying = [ np, current ]
-  play = [ плей ]
-  playlists = [ pls, плейлисты ]
+  nowplaying = [ np, current, сейчасиграет, нп ]
+  play = [ плей, играй ]
+  playlists = [ pls, плейлисты, плейлист ]
   queue = [ очередь, list ]
-  remove = [ удалить ]
-  scsearch = [ саундклауд]
-  search = [ ytsearch, поиск ]
+  remove = [ удалить, ремув ]
+  scsearch = [ саундклауд ]
+  search = [ ytsearch, поиск, сеарч ]
   shuffle = [ перемешать ]
   skip = [ voteskip, пропуск ]
 
   // Admin commands
   prefix = [ setprefix ]
   setdj = [ диджей ]
-  settc = [ текстчат ]
-  setvc = [ гсчат]
+  settc = [ текстчат, текстовыйчат ]
+  setvc = [ гсчат, голосовойчат]
 
   // DJ Commands
   forceremove = [ forcedelete, modremove, moddelete. форсудалить ]
