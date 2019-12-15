@@ -1,2 +1,2 @@
-worker: java -jar musicbot.jar
+worker: sh release.sh && java -jar musicbot.jar
 release: sh release.sh
