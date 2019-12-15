@@ -1,1 +1,3 @@
 apply plugin: 'java'
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
