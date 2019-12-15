@@ -34,7 +34,7 @@ public class AutoplaylistCmd extends OwnerCommand
         this.guildOnly = true;
         this.name = "autoplaylist";
         this.arguments = "<name|NONE>";
-        this.help = "sets the default playlist for the server";
+        this.help = "устанавливает стандартный плейлист на сервере";
         this.aliases = bot.getConfig().getAliases(this.name);
     }
 
@@ -43,26 +43,26 @@ public class AutoplaylistCmd extends OwnerCommand
     {
         if(event.getArgs().isEmpty())
         {
-            event.reply(event.getClient().getError()+" Please include a playlist name or NONE");
+            event.reply(event.getClient().getError()+" Укажите название плейлиста или введите `NONE`");
             return;
         }
         if(event.getArgs().equalsIgnoreCase("none"))
         {
             Settings settings = event.getClient().getSettingsFor(event.getGuild());
             settings.setDefaultPlaylist(null);
-            event.reply(event.getClient().getSuccess()+" Cleared the default playlist for **"+event.getGuild().getName()+"**");
+            event.reply(event.getClient().getSuccess()+" Очистка стандартного плейлиста для сервера **"+event.getGuild().getName()+"**");
             return;
         }
         String pname = event.getArgs().replaceAll("\\s+", "_");
         if(bot.getPlaylistLoader().getPlaylist(pname)==null)
         {
-            event.reply(event.getClient().getError()+" Could not find `"+pname+".txt`!");
+            event.reply(event.getClient().getError()+" Не могу найти в базе плейлистов `"+pname+".txt`!");
         }
         else
         {
             Settings settings = event.getClient().getSettingsFor(event.getGuild());
             settings.setDefaultPlaylist(pname);
-            event.reply(event.getClient().getSuccess()+" The default playlist for **"+event.getGuild().getName()+"** is now `"+pname+"`");
+            event.reply(event.getClient().getSuccess()+" Стандартный плейлист для сервера **"+event.getGuild().getName()+"** теперь `"+pname+"`");
         }
     }
 }
