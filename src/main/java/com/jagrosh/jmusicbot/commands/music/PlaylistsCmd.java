@@ -56,7 +56,7 @@ public class PlaylistsCmd extends MusicCommand
         {
             StringBuilder builder = new StringBuilder(event.getClient().getSuccess()+" Доступные плейлисты:\n");
             list.forEach(str -> builder.append("`").append(str).append("` "));
-            builder.append("\nType `").append(event.getClient().getTextualPrefix()).append("play playlist <name>` для воспроизведения плейлиста");
+            builder.append("\nВведите `").append(event.getClient().getTextualPrefix()).append("play playlist <name>` для воспроизведения плейлиста");
             event.reply(builder.toString());
         }
     }
