@@ -52,7 +52,7 @@ public class PrefixCmd extends AdminCommand
         else
         {
             s.setPrefix(event.getArgs());
-            event.replySuccess("Теперь префикс для бота `" + event.getArgs() + " на сервере *" + event.getGuild().getName() + "*");
+            event.replySuccess("Теперь префикс для бота `" + event.getArgs() + "` на сервере *" + event.getGuild().getName() + "*");
         }
     }
 }
