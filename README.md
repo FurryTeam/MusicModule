@@ -17,7 +17,7 @@
 
 ## Добавить его к себе 
 ![Загрузка изображения...](https://faq.furrybot.gq/filoghost_files/cover-invite.png)
-Ссылка приглашение: **http://s.fns.wtf/musicmonster**
+      Ссылка приглашение: **http://s.fns.wtf/musicmonster**
 
 
 ## Особенности
