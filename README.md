@@ -14,6 +14,12 @@
 
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://github.com/jagrosh/MusicBot/wiki/Setup)
 
+
+## Добавить его к себе 
+![Загрузка изображения...](https://faq.furrybot.gq/filoghost_files/cover-invite.png)
+Ссылка приглашение: **http://s.fns.wtf/musicmonster**
+
+
 ## Особенности
    * Простота запуска (просто убедитесь, что Java установлена и работает!)
    * Быстрая загрузка песен
