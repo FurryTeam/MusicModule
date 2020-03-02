@@ -2,7 +2,7 @@
 
 # [RU] MusicModule - Furry
 
-[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/Rxflex/MusicMonsterb/stargazers)
+[![Stars](https://img.shields.io/github/stars/FurryTeam/MusicModule.svg)](https://github.com/Rxflex/MusicMonsterb/stargazers)
 [![Release](https://img.shields.io/github/release/FurryTeam/MusicModule.svg)](https://github.com/FurryTeam/MusicModule/releases/latest)
 [![License](https://img.shields.io/github/license/FurryTeam/MusicModule.svg)](https://github.com/FurryTeam/MusicModule/blob/master/LICENSE)
 [![Discord](https://discordapp.com/api/guilds/147698382092238848/widget.png)](https://discord.gg/0p9LSGoRLu6Pet0k)<br>
